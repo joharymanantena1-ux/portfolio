@@ -4,11 +4,28 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const experiences = [
   {
-    title: "Développeur Web Fullstack",
+    title: "Projet SaaS Gestion des Écoles",
+    company: "Levitation",
+    period: "Janvier 2026 – Présent",
+    description:
+      "Conception d'une plateforme SaaS scolaire avec gestion des notes, facturation et automatisation des workflows (emails/SMS).",
+    technologies: ["Laravel", "ReactJS", "MySQL", "n8n", "API REST"],
+  },
+  {
+    title: "Développeur Web (Freelance)",
+    company: "Loca & Deco",
+    period: "Novembre 2025 – Février 2026",
+    description:
+      "Création d'un site de location événementielle avec back-office de gestion de stocks et optimisation UX.",
+    technologies: ["Spring Boot", "ReactJS", "MySQL"],
+  },
+  {
+    title: "Application Logistique & Transport",
     company: "Konecta Madagascar",
-    period: "Sept - Déc 2024",
-    description: "Projet de digitalisation du transport interne du personnel. Développement de modules de planification, optimisation d'itinéraires avec OSRM, automatisation des affectations et reporting.",
-    technologies: ["PHP", "React", "MySQL", "OSRM"],
+    period: "Septembre – Décembre 2025",
+    description:
+      "Développement d'une solution de suivi de livraisons en temps réel avec optimisation des trajets et interfaces multi-profils.",
+    technologies: ["React Native", "ReactJS", "Node.js", "Firebase", "MySQL"],
   },
 ];
 

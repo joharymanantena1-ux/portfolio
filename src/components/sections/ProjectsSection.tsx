@@ -11,6 +11,22 @@ import {
 
 const projects = [
   {
+    title: "Edu Levitation SaaS",
+    description:
+      "Plateforme SaaS éducative complète pour la gestion des écoles : notes, facturation, gestion élèves, automatisation des notifications.",
+    image: "https://images.unsplash.com/photo-1588072432836-e10032774350?w=800&q=80",
+    technologies: ["Laravel", "ReactJS", "MySQL", "n8n", "API REST"],
+    category: "SaaS",
+  },
+  {
+    title: "Levitation (Mini ESN Freelance)",
+    description:
+      "Site collectif de développeurs freelance proposant des solutions web et SaaS pour entreprises et startups.",
+    image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=800&q=80",
+    technologies: ["ReactJS", "Node.js", "Tailwind CSS"],
+    category: "Startup",
+  },
+  {
     title: "Transport Interne Konecta",
     description: "Digitalisation du transport du personnel avec planification, optimisation d'itinéraires via OSRM, automatisation des affectations et système de reporting complet.",
     image: "https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=800&q=80",
